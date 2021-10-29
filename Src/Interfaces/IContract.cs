@@ -1,0 +1,7 @@
+namespace Name
+{
+    interface IContract
+    {
+        
+    }
+}
