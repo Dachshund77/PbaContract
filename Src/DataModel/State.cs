@@ -1,6 +1,6 @@
 namespace Contract
 {
-    enum TicketState
+    public enum TicketState
     {
         Open,
         Closed

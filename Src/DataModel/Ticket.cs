@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Contract
 {
 
-    class Ticket
+    public class Ticket
     {
         public int TicketId { get; set; }
         public Customer Customer { get; set; }

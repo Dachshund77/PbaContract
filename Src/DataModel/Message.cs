@@ -2,7 +2,7 @@ using System;
 
 namespace Contract
 {
-    class Message
+    public class Message
     {
         public int MessageId { get; set; }
         public int TicketId { get; set; }
