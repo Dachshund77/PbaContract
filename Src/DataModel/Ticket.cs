@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Contract
 {
@@ -12,6 +13,7 @@ namespace Contract
         public string Topic { get; set; }
         public string Description { get; set; }
         public DateTime DueDate { get; set; }
+        public List<Message> Messages { get; set; }
         
     }
 }
